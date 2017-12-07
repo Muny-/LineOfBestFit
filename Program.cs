@@ -21,13 +21,28 @@ namespace LineOfBestFit
     {
         static void Main(string[] args)
         {
+            if (args.Length > 0 && args[0].EndsWith(".csproj"))
+                args = new string[0];
+                
+            Console.WriteLine(String.Join(", ", args));
+
             Console.Write("Loading input vectors...");
 
-            // Read all of InputDataPoints.txt (or first program argument)
+            // Read all of InputDataPoints.txt (or first program argument if specified)
             // into an array of strings, where the delimiter is a \n
             // character, then convert that into a list of DataPoint objects (x, y) 
             List<DataPoint> data_points = File.ReadAllLines(args.Length > 0 ? args[0]: "InputDataPoints.txt")
-                .Where(val => !val.StartsWith("#")).ToList().ConvertAll(val => new DataPoint(ParseVector(val, 25, 13))).ToList();
+                // Treat lines starting with '#' as comments (ignore them)
+                .Where(val => !val.StartsWith("#")).ToList()
+                // Parse the data points as our DataPoint object
+                .ConvertAll(val => new DataPoint(
+                    ParseVector(
+                        val, 
+                        // Default values if none specified
+                        args.Length > 1 ? int.Parse(args[1]) : 25, 
+                        args.Length > 2 ? int.Parse(args[2]) : 13
+                    )
+                )).ToList();
 
             Console.WriteLine("done");
 
