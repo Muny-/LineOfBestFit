@@ -1,0 +1,10 @@
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/bin/Debug/netcoreapp2.0/LineOfBestFit.deps.json
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/bin/Debug/netcoreapp2.0/LineOfBestFit.runtimeconfig.json
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/bin/Debug/netcoreapp2.0/LineOfBestFit.runtimeconfig.dev.json
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/bin/Debug/netcoreapp2.0/LineOfBestFit.dll
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/bin/Debug/netcoreapp2.0/LineOfBestFit.pdb
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/obj/Debug/netcoreapp2.0/LineOfBestFit.csproj.CoreCompileInputs.cache
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/obj/Debug/netcoreapp2.0/LineOfBestFit.AssemblyInfoInputs.cache
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/obj/Debug/netcoreapp2.0/LineOfBestFit.AssemblyInfo.cs
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/obj/Debug/netcoreapp2.0/LineOfBestFit.dll
+/home/kevin/Desktop/RIT/Fresh/Sem1/PB Calc I/LineOfBestFit/obj/Debug/netcoreapp2.0/LineOfBestFit.pdb
