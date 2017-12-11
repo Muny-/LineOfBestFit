@@ -1,5 +1,5 @@
 # Line of Best Fit
-.NET core program which finds the linear line of best fit for a given data set.
+This is a .NET core program which finds the linear line of best fit for a given data set. It was created for a Calculus II class as the final project.
 
 ## How to Run
 1. Install .NET Core SDK
