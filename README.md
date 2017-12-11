@@ -4,7 +4,7 @@
 ## How to Run
 1. Install .NET Core SDK
 	* https://www.microsoft.com/net/learn/get-started
-2. Clone/download git repository. Extract if downloaded in as ZIP.
+2. Clone/download git repository. Extract it if you downloaded as a ZIP.
 3. Within project folder, run
 	* ```dotnet run``` to generate the line of best fit using the sample data
 	* ```dotnet run <your_file> <x column> <y column>``` to generate the line of best fit for custom data
@@ -15,4 +15,4 @@
           xval3,yval3
           ...
           ```
-If you have any issues, feel free to contact me.
+If you have any issues, please feel free to contact me.
