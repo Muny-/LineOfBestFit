@@ -1,6 +1,10 @@
 # Line of Best Fit
 This is a .NET core program which finds the linear line of best fit for a given data set. It was created for a Calculus II class as the final project.
 
+## Dependencies
+* The .NET SDK is required to compile and run the program.
+* GNUPlot is required to display the generated graph
+
 ## How to Run
 1. Install .NET Core SDK
 	* https://www.microsoft.com/net/learn/get-started
