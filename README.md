@@ -5,7 +5,7 @@ This is a .NET core program which finds the linear line of best fit for a given 
 1. Install .NET Core SDK
 	* https://www.microsoft.com/net/learn/get-started
 2. Clone/download git repository. Extract it if you downloaded as a ZIP.
-3. Within project folder, run
+3. Within the project folder, run one of the following commands in whichever command line tool you use:
 	* ```dotnet run``` to generate the line of best fit using the sample data
 	* ```dotnet run <your_file> <x column> <y column>``` to generate the line of best fit for custom data
 		* Data shall be formatted as such: 
