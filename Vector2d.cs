@@ -4,7 +4,6 @@
 // Assembly: UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 // Assembly location: C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll
 using System;
-using System.Runtime.CompilerServices;
 
 namespace UnityEngine {
     public struct Vector2d {
